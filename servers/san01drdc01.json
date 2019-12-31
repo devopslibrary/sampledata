@@ -1,0 +1,11 @@
+{
+  "name": "san01drdc01",
+  "owner": "Infrastructure Team",
+  "contact": "it@loremipsum.org",
+  "lastUpdated": "2019-12-30T19:31:41Z",
+  "datacenter": { "$ref": "../datacenters/san01dr.json" },
+  "purpose": "domainController",
+  "os": "Windows Server 2016",
+  "firmware": "12.04.a",
+  "ip": "172.32.0.4"
+}

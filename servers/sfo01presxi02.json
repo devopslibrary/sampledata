@@ -1,0 +1,11 @@
+{
+  "name": "sfo01presxi02",
+  "owner": "VMware Team",
+  "contact": "vmware@loremipsum.org",
+  "lastUpdated": "2018-12-30T19:31:41Z",
+  "datacenter": { "$ref": "../datacenters/sfo01pr.json" },
+  "purpose": "esxiHost",
+  "os": "ESXi 6.5",
+  "firmware": "12.04.a",
+  "ip": "172.64.0.3"
+}

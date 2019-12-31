@@ -1,0 +1,11 @@
+{
+  "name": "ind01prdc01",
+  "owner": "Infrastructure Team",
+  "contact": "it@loremipsum.org",
+  "lastUpdated": "2019-12-30T19:31:41Z",
+  "datacenter": { "$ref": "../datacenters/ind01pr.json" },
+  "purpose": "domainController",
+  "os": "Windows Server 2016",
+  "firmware": "12.04.a",
+  "ip": "172.16.0.4"
+}

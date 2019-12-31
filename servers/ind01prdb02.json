@@ -1,0 +1,11 @@
+{
+  "name": "ind01prdb02",
+  "owner": "DBA Infrastructure Team",
+  "contact": "dba@loremipsum.org",
+  "lastUpdated": "2019-12-30T19:31:41Z",
+  "datacenter": { "$ref": "../datacenters/ind01pr.json" },
+  "purpose": "database",
+  "os": "CentOS 7",
+  "firmware": "12.04.a",
+  "ip": "172.16.0.3"
+}

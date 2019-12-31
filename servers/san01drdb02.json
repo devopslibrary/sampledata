@@ -1,0 +1,11 @@
+{
+  "name": "san01drdb02",
+  "owner": "DBA Infrastructure Team",
+  "contact": "dba@loremipsum.org",
+  "lastUpdated": "2019-12-30T19:31:41Z",
+  "datacenter": { "$ref": "../datacenters/san01dr.json" },
+  "purpose": "database",
+  "os": "CentOS 7",
+  "firmware": "12.01.a",
+  "ip": "172.32.0.3"
+}

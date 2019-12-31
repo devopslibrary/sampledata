@@ -1,0 +1,5 @@
+{
+  "name": "ind01prdb01",
+  "lastUpdated": "2019-12-30T19:31:41Z",
+  "datacenter": { "$ref": "../datacenters/ind01pr.json" }
+}

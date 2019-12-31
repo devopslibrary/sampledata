@@ -1,0 +1,100 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "name",
+    "owner",
+    "contact",
+    "lastUpdated",
+    "datacenter",
+    "purpose",
+    "os",
+    "firmware",
+    "ip"
+  ],
+  "properties": {
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The Name Schema",
+      "default": "",
+      "examples": ["sfo01presxi01"],
+      "pattern": "^(.*)$"
+    },
+    "owner": {
+      "$id": "#/properties/owner",
+      "type": "string",
+      "title": "The Owner Schema",
+      "default": "",
+      "examples": ["VMware Team"],
+      "pattern": "^(.*)$"
+    },
+    "contact": {
+      "$id": "#/properties/contact",
+      "type": "string",
+      "title": "The Contact Schema",
+      "default": "",
+      "examples": ["vmware@loremipsum.org"],
+      "pattern": "^(.*)$"
+    },
+    "lastUpdated": {
+      "$id": "#/properties/lastUpdated",
+      "type": "string",
+      "title": "The Lastupdated Schema",
+      "default": "",
+      "examples": ["2019-12-30T19:31:41Z"],
+      "pattern": "^(.*)$"
+    },
+    "datacenter": {
+      "$id": "#/properties/datacenter",
+      "type": "object",
+      "title": "The Datacenter Schema",
+      "required": ["$ref"],
+      "properties": {
+        "$ref": {
+          "$id": "#/properties/datacenter/properties/$ref",
+          "type": "string",
+          "title": "The $ref Schema",
+          "default": "",
+          "examples": ["../datacenters/sfo01pr.json"],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "purpose": {
+      "$id": "#/properties/purpose",
+      "type": "string",
+      "title": "The Purpose Schema",
+      "default": "",
+      "examples": ["esxiHost"],
+      "pattern": "^(.*)$"
+    },
+    "os": {
+      "$id": "#/properties/os",
+      "type": "string",
+      "title": "The Os Schema",
+      "default": "",
+      "examples": ["ESXi 6.5"],
+      "pattern": "^(.*)$"
+    },
+    "firmware": {
+      "$id": "#/properties/firmware",
+      "type": "string",
+      "title": "The Firmware Schema",
+      "default": "",
+      "examples": ["12.04.a"],
+      "pattern": "^(.*)$"
+    },
+    "ip": {
+      "$id": "#/properties/ip",
+      "type": "string",
+      "title": "The Ip Schema",
+      "default": "",
+      "examples": ["172.64.0.2"],
+      "pattern": "^(.*)$"
+    }
+  }
+}

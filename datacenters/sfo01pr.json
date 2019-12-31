@@ -1,0 +1,11 @@
+{
+  "name": "San Francisco Production Datacenter 01",
+  "lastUpdated": "2019-12-30T19:31:41Z",
+  "shortname": "sfo01pr",
+  "dns": {
+    "primary": "9.9.9.9",
+    "secondary": "12.12.12.12"
+  },
+  "cidr": "172.64.0.0/19",
+  "vlans": [11, 12, 13, 14, 15]
+}

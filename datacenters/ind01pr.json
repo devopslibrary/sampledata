@@ -1,0 +1,11 @@
+{
+  "name": "Indianapolis Production Datacenter 01",
+  "lastUpdated": "2019-12-30T19:31:41Z",
+  "shortname": "ind01pr",
+  "dns": {
+    "primary": "8.8.8.8",
+    "secondary": "4.2.2.2"
+  },
+  "cidr": "172.16.0.0/19",
+  "vlans": [1, 2, 3, 4, 5]
+}
