@@ -1,6 +1,6 @@
 {
   "name": "San Francisco Production Datacenter 01",
-  "lastUpdated": "2019-12-30T19:31:41Z",
+  "lastUpdated": "2019-12-30T19:34:41Z",
   "shortname": "sfo01pr",
   "dns": {
     "primary": "9.9.9.9",
