@@ -4,7 +4,7 @@
   "shortname": "ind01pr",
   "dns": {
     "primary": "8.8.8.8",
-    "secondary": "4.2.2.5"
+    "secondary": "4.2.2.6"
   },
   "cidr": "172.16.0.0/19",
   "vlans": [1, 2, 3, 4, 5]
