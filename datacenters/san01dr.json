@@ -1,6 +1,6 @@
 {
   "name": "San Diego Disaster Recovery Datacenter 01",
-  "lastUpdated": "2019-12-30T19:31:41Z",
+  "lastUpdated": "2019-12-30T19:31:42Z",
   "shortname": "san01dr",
   "dns": {
     "primary": "1.1.1.1",
